@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+    --Light-red: #ff525d; /*CTA text*/
+    --Very-light-red: #ff7a85; /*CTA hover background*/
+    --Very-dark-blue: #1f3f5b;/*headings*/
+
+    /* Neutral */
+
+    --White: #ffffff; /*text*/
+    --Grayish-blue: #c8c8cb; /*footer text*/
+    --Very-dark-grayish-blue: #4b5862;/*body copy*/
+    --Very-dark-black-blue: #25252d; /*footer background*/
+
+    /* Gradient */
+
+    /* Background gradient - Intro/CTA mobile nav: */
+
+    --Very-light-red: #ff8f70;
+    --Light-red: #ff3d54;
+
+    /* Background gradient - body */
+
+    --Very-dark-gray-blue: #2c2d3f;
+    --Very-dark-desaturated-blue: #3f4164;
+
+    /* fonts */
+
+    --font-Overpass: 'Overpass', sans-serif;
+    --font-Ubuntu: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: var(--Light-red);
+}
+
+header{
+    font-family: var(--font-Overpass);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 100px;
+    font-weight: 600;
+}
+
+#img-nav1{
+    align-items: center;
+    display: flex;
+}
+
+#nav1{
+    display: flex;
+    align-items: center;
+}
+
+#nav1{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+#nav1 li{
+    color: var(--White);
+    cursor: pointer;
+}
+
+#nav1 li:hover{
+    text-decoration: underline;
+}
+
+#nav2 a{
+    text-decoration: none;
+}
+
+#botao-menu{
+    display: none;
+}
+
+#login{
+    color: var(--White);
+}
+
+#sign{
+    margin-left: 25px;
+    color: var(--Light-red);
+    background-color: var(--White);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+#sign:hover{
+    color: var(--White);
+    background-color: #ffffff2f;
+}
+
+#botao-menu{
+    padding: 10px;
+    padding-top: 15px;
+    margin: -10px;
+    cursor: pointer;
+}
+
+.product, .company, .connect{
+    position: absolute;
+    top: 90px;
+    list-style: none;
+    background-color: var(--White);
+    border-radius: 5px;
+    color: var(--Very-dark-blue);
+    display: none;
+}
+
+.product li, .company li, .connect li{
+    margin-bottom: 9px;
+    cursor: pointer;
+    
+}
+
+
+.product li:hover, .company li:hover, .connect li:hover{
+    font-weight: 600;
+}
+
+.product{
+    left: 230px;
+    width: 120px;
+    height: 190px;
+}
+
+.product li{
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+.company{
+    left: 340px;
+    width: 120px;
+    height: 150px;
+}
+
+.company li{
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+.connect{
+    left: 435px;
+    width: 120px;
+    height: 120px;
+}
+
+.connect li{
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+.rotacao{
+    rotate: 180deg;
+    transition: all .2s ease;
+}
+
+.active{
+    display: block;
+}
+
+.no-active{
+    display: none;
+}
+
+@media (max-width: 900px){
+
+    nav{
+        margin: 40px 80px;
+    }
+
+    #nav1,
+    #nav2{
+        display: none;
+    }
+
+    #botao-menu{
+        display: block;
+    }
+
+    .product, .company, .connect{
+        display: none;
+    }
+}
+

@@ -53,10 +53,18 @@ connectBotao.addEventListener('click', () => {
 // menu hamburger
 
 const botaoMenu = document.querySelector('#botao-menu');
+const menuMobile = document.querySelector('#menu-mobile');
 
 botaoMenu.addEventListener('click', () => {
     botaoMenu.classList.toggle('active');  
+    menuMobile.classList.toggle('active');  
 })
 
 
+const productBotao2 = document.querySelector("#product-botao2");
+const product2 = document.querySelector(".product2");
 
+productBotao2.addEventListener('click', () => {
+    product2.classList.toggle('active');
+
+})

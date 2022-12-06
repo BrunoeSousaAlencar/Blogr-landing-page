@@ -150,6 +150,11 @@ nav{
     top: 20px;
 }
 
+#menu-mobile{
+    position: fixed;
+    left: 100%;
+}
+
 .connect{
     left: 435px;
     width: 120px;
@@ -213,5 +218,101 @@ nav{
     #botao-menu.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    #menu-mobile{
+        position: fixed;
+        left: 100%; right: 0;
+        width: 90vw;
+        height: 600px;
+        background: var(--White);
+        margin: auto; padding-top: 5px;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 10px;
+        box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.274);
+        transition: all .3s ease;
+    }
+
+    #menu-mobile.active{
+        left: 0%;
+    }
+
+
+    #nav-mobile1 li{
+        list-style-type: none;
+        margin-top: 30px;
+        position: relative;
+        left: -25px;
+        cursor: pointer;
+        font-weight: 700;
+        color: var(--Very-dark-gray-blue);
+    }
+
+    .product2, .company2, .connect2{
+        display: none;
+        width: 50%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        background-color: var(--Grayish-blue);
+        border-radius: 5px;
+    }
+
+    .product2.active{
+        display: block;
+    }
+
+    .company2.active{
+        display: block;
+    }
+
+    .connect2.active{
+        display: block;
+    }
+
+    .product2 li, .company2 li, .connect2 li{
+        list-style: none;
+        position: relative;
+        left: -26px;
+        color: var(--Very-dark-gray-blue);
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    #product-botao img, #company-botao img, #connect-botao img{
+        width: 15px;
+    }
+
+    #nav-mobile2{
+        border-top: 1.5px solid var(--Grayish-blue);
+        padding-top: 10px;
+        display: grid;
+        place-items: center;
+        width: 80vw;
+        margin: auto;
+    }
+
+    #nav-mobile2 a{
+        position: relative;
+        left: -10px;
+    }
+
+    #nav-mobile2 a{
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    #nav-mobile2 #login{
+        margin: 10px;
+        color: var(--Very-dark-black-blue);
+    }
+
+    #sign{
+        margin-left: 0px;
+        background-color: var(--Light-red);
+        color: var(--White);
+    }
+
 }
 

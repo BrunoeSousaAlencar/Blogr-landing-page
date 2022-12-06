@@ -61,10 +61,55 @@ botaoMenu.addEventListener('click', () => {
 })
 
 
+// product mobile
+
 const productBotao2 = document.querySelector("#product-botao2");
 const product2 = document.querySelector(".product2");
+const arrowB1 = document.querySelector(".arrow-product2");
 
 productBotao2.addEventListener('click', () => {
     product2.classList.toggle('active');
+    company2.classList.remove('active');
+    connect2.classList.remove('active');
 
+    arrowB1.classList.toggle('rotacao');
+    arrowB2.classList.remove('rotacao');
+    arrowB3.classList.remove('rotacao');
+
+})
+
+
+// company mobile
+
+const companyBotao2 = document.querySelector("#company-botao2");
+const company2 = document.querySelector(".company2");
+const arrowB2 = document.querySelector(".arrow-company2");
+
+
+companyBotao2.addEventListener('click', () => {
+    company2.classList.toggle('active');
+    product2.classList.remove('active');
+    connect2.classList.remove('active');
+
+    arrowB2.classList.toggle('rotacao');
+    arrowB1.classList.remove('rotacao');
+    arrowB3.classList.remove('rotacao');
+})
+
+
+// connect mobile
+
+const connect2Botao2 = document.querySelector("#connect-botao2");
+const connect2 = document.querySelector(".connect2");
+const arrowB3 = document.querySelector(".arrow-connect2");
+
+
+connect2Botao2.addEventListener('click', () => {
+    connect2.classList.toggle('active');
+    company2.classList.remove('active');
+    product2.classList.remove('active');
+
+    arrowB1.classList.remove('rotacao');
+    arrowB3.classList.toggle('rotacao');
+    arrowB2.classList.remove('rotacao');
 })

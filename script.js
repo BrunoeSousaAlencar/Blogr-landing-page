@@ -52,13 +52,11 @@ connectBotao.addEventListener('click', () => {
 
 // menu hamburger
 
-const hamburger = document.querySelector('.hamburger');
-const botaoMenu = document.querySelector('.botao-menu');
-const close1 = document.querySelector('.close');
+const botaoMenu = document.querySelector('#botao-menu');
 
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('botao-active');  
-    close1.classList.toggle('close-active'); 
-    
+botaoMenu.addEventListener('click', () => {
+    botaoMenu.classList.toggle('active');  
 })
+
+
 

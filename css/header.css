@@ -186,12 +186,32 @@ nav{
         display: none;
     }
 
+    .product, .company, .connect{
+        display: none;
+    }
+
     #botao-menu{
         display: block;
     }
 
-    .product, .company, .connect{
-        display: none;
+    #botao-menu .bar{
+        background-color: var(--White);
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        transition: all .3s ease;
+    }
+
+    #botao-menu.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    #botao-menu.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #botao-menu.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
 

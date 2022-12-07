@@ -1,0 +1,63 @@
+:root{
+    --Light-red: #ff525d; /*CTA text*/
+    --Very-light-red: #ff7a85; /*CTA hover background*/
+    --Very-dark-blue: #1f3f5b;/*headings*/
+
+    /* Neutral */
+
+    --White: #ffffff; /*text*/
+    --Grayish-blue: #c8c8cb; /*footer text*/
+    --Very-dark-grayish-blue: #4b5862;/*body copy*/
+    --Very-dark-black-blue: #25252d; /*footer background*/
+
+    /* Gradient */
+
+    /* Background gradient - Intro/CTA mobile nav: */
+
+    --Very-light-red: #ff8f70;
+    --Light-red: #ff3d54;
+
+    /* Background gradient - body */
+
+    --Very-dark-gray-blue: #2c2d3f;
+    --Very-dark-desaturated-blue: #3f4164;
+
+    /* fonts */
+
+    --font-Overpass: 'Overpass', sans-serif;
+    --font-Ubuntu: 'Ubuntu', sans-serif;
+}
+
+#container2{
+    font-family: var(--font-Overpass);
+    width: 100%;
+    height: 600px;
+    background-image: url(/images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 900px;
+    margin-top: -170px;
+}
+
+#container2 h2{
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+    top: 80px;
+    color: var(--Very-dark-blue);
+    font-weight: 700;
+}
+
+#container2 h3{
+    color: var(--Very-dark-gray-blue);
+    font-weight: 700;
+}
+
+#texto-cotainer2{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 100px;
+}

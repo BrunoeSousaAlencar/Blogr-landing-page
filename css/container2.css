@@ -35,7 +35,7 @@
     background-image: url(/images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 900px;
+    background-position: center right -190px;
     margin-top: -170px;
 }
 
@@ -49,8 +49,12 @@
 }
 
 #container2 h3{
-    color: var(--Very-dark-gray-blue);
+    color: var(--Very-dark-desaturated-blue);
     font-weight: 700;
+}
+
+#container2 p{
+    color: var(--Very-dark-grayish-blue);
 }
 
 #texto-cotainer2{

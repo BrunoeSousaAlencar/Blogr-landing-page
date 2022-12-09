@@ -48,6 +48,9 @@
 
 #container1 h1{
     font-size: 4.2rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 #container1 p{

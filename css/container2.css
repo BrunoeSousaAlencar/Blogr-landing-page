@@ -44,7 +44,8 @@
     margin-top: 250px;
     margin-bottom: -50px;
     color: var(--Very-dark-blue);
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 2rem;
 }
 
 #img-container2 img{
@@ -57,6 +58,7 @@
 #container2 h3{
     color: var(--Very-dark-desaturated-blue);
     font-weight: 700;
+    font-size: 1.8rem;
 }
 
 #container2 p{
@@ -68,11 +70,11 @@
     justify-content: space-between;
     width: 40vw;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-left: 100px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
 
     #container2{
         background-position: center ;

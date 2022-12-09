@@ -45,6 +45,7 @@
     width: 99%;
     display: grid;
     place-items: center;
+    display: none;
 }
 
 #texto-container4{
@@ -69,6 +70,10 @@
 
     #container4{
         background: none;
+    }
+
+    #img-container4 img{
+        display: block;
     }
 
     #texto-container4{

@@ -48,6 +48,14 @@
     font-weight: 700;
 }
 
+#img-container2 img{
+    display: none;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
 #container2 h3{
     color: var(--Very-dark-desaturated-blue);
     font-weight: 700;
@@ -59,9 +67,36 @@
 
 #texto-cotainer2{
     display: flex;
-    width: 40%;
     justify-content: space-between;
+    width: 40vw;
     align-items: center;
     margin-top: 120px;
     margin-left: 100px;
+}
+
+@media (max-width: 900px){
+
+    #container2{
+        background-position: center ;
+        background: none;
+    }
+
+    #texto-cotainer2{
+        margin: auto;
+        margin-top: 140px;
+        text-align: center;
+        width: 85vw;
+    }
+
+    #img-container2 img{
+        display: block;
+    }
+
+    #container2 h3{
+        width: 80vw;
+        margin: auto;
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+
 }

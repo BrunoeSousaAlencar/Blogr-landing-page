@@ -1,0 +1,29 @@
+:root{
+    --Light-red: #ff525d; /*CTA text*/
+    --Very-light-red: #ff7a85; /*CTA hover background*/
+    --Very-dark-blue: #1f3f5b;/*headings*/
+
+    /* Neutral */
+
+    --White: #ffffff; /*text*/
+    --Grayish-blue: #c8c8cb; /*footer text*/
+    --Very-dark-grayish-blue: #4b5862;/*body copy*/
+    --Very-dark-black-blue: #25252d; /*footer background*/
+
+    /* Gradient */
+
+    /* Background gradient - Intro/CTA mobile nav: */
+
+    --Very-light-red: #ff8f70;
+    --Light-red: #ff3d54;
+
+    /* Background gradient - body */
+
+    --Very-dark-gray-blue: #2c2d3f;
+    --Very-dark-desaturated-blue: #3f4164;
+
+    /* fonts */
+
+    --font-Overpass: 'Overpass', sans-serif;
+    --font-Ubuntu: 'Ubuntu', sans-serif;
+}

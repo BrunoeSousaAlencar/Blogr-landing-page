@@ -1,0 +1,94 @@
+:root{
+    --Light-red: #ff525d; /*CTA text*/
+    --Very-light-red: #ff7a85; /*CTA hover background*/
+    --Very-dark-blue: #1f3f5b;/*headings*/
+
+    /* Neutral */
+
+    --White: #ffffff; /*text*/
+    --Grayish-blue: #c8c8cb; /*footer text*/
+    --Very-dark-grayish-blue: #4b5862;/*body copy*/
+    --Very-dark-black-blue: #25252d; /*footer background*/
+
+    /* Gradient */
+
+    /* Background gradient - Intro/CTA mobile nav: */
+
+    --Very-light-red: #ff8f70;
+    --Light-red: #ff3d54;
+
+    /* Background gradient - body */
+
+    --Very-dark-gray-blue: #2c2d3f;
+    --Very-dark-desaturated-blue: #3f4164;
+
+    /* fonts */
+
+    --font-Overpass: 'Overpass', sans-serif;
+    --font-Ubuntu: 'Ubuntu', sans-serif;
+}
+
+footer{
+    background-color: var(--Very-dark-black-blue);
+    color: var(--White);
+    height: 300px;
+    width: 100%;
+    font-family: var(--font-Overpass);
+    border-top-right-radius: 90px;
+}
+
+#texto-footer{
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+    gap: 200px;
+}
+
+#texto-footer img{
+    height: 40px;
+}
+
+.texto-links-ft p{
+    font-weight: 900;
+}
+
+.links-footer{
+    display: grid;
+    gap: 7px;
+}
+
+.links-footer a{
+    text-decoration: none;
+    color: var(--Grayish-blue);
+    cursor: pointer;
+}
+
+.links-footer a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px){
+
+    #texto-footer{
+        gap: 100px;
+    }
+}
+
+@media (max-width: 700px){
+
+    footer{
+        height: auto;
+    }
+
+    #texto-footer img{
+       display: inline;
+    }
+
+    #texto-footer{
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

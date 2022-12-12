@@ -48,7 +48,7 @@
 
 #container1 h1{
     font-size: 4.2rem;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-bottom: 40px;
 }
@@ -65,12 +65,12 @@
     border: 1px solid var(--White);
     border-radius: 30px;
     font-weight: 600;
-    margin: 10px;
 }
 
 #links-assinatura a:first-of-type{
     color: var(--Light-red);
     background-color: var(--White);
+    margin-right: 10px;
 }
 
 #links-assinatura a:last-of-type{
@@ -100,7 +100,7 @@
     #container1{
         width: 90%;
         margin: auto;
-        margin-top: 90px;
+        margin-top: 50px;
     }
 
     #container1 h1{
@@ -109,5 +109,10 @@
     
     #container1 p{
         font-size: 1.5rem;
+    }
+
+    #links-assinatura a{
+        font-size: 14px;
+        font-weight: bolder;
     }
 }

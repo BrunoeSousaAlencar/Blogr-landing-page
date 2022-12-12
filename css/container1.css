@@ -31,7 +31,7 @@
 #container-principal{
     font-family: var(--font-Overpass);
     background-color: var(--Light-red);
-    background-image: url(/images/bg-pattern-intro-desktop.svg);
+    background-image: url(../images/bg-pattern-intro-desktop.svg);
     background-repeat: no-repeat;
     background-position: center left -450px ;
     background-size: 220%;
@@ -92,7 +92,7 @@
 
     #container-principal{
         height: 670px;
-        background-image: url(/images/bg-pattern-intro-mobile.svg);
+        background-image: url(../images/bg-pattern-intro-mobile.svg);
         background-position: center;
         background-position: center top -190px;
     }
